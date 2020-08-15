@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarioGabriel</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="http://google.com">Google</a></li>
-                <li><a href="/workouts">My Workouts</a></li>
-            </ul>
-        </nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://google.com">Google</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/workouts">My Workouts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
     </header>
     <main>
-        <section>
-            <article>
-                <h1 style="background-color:red; color:white;">
-                    Hello World
-                </h1>
-                <h1 style="font-family:'Times New Roman', Times, serif">Hello World</h1>
-                <h1>Hello World</h1>
-                <h2>Hello World</h2>
-                <h3>Hello World</h3>
-                <h4>Hello World</h4>
-                <h5>Hello World</h5>
-                <h6>Hello World</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores, qui illo ullam autem odio
-                    quidem quo velit quaerat, provident molestias ratione nostrum similique pariatur reprehenderit
-                    dolorem consectetur. Id, corporis!</p>
-                <ol>
-                    <li>list item</li>
-                    <li>list item</li>
-                    <li>list item</li>
-                </ol>
-                <ul>
-                    <li>list item</li>
-                    <li>list item</li>
-                    <li>list item</li>
-                </ul>
-            </article>
-        </section>
+      <section>
+        <article>
+          <h1 class="title">
+            Hello World
+          </h1>
+          <h1>Hello World</h1>
+          <h1>Hello World<span class="badge badge-secondary">New</span></h1>
+          <h2>Hello World</h2>
+          <h3>Hello World</h3>
+          <h4>Hello World</h4>
+          <h5 class="title">Hello World</h5>
+          <h6>Hello World</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            dolores, qui illo ullam autem odio quidem quo velit quaerat,
+            provident molestias ratione nostrum similique pariatur reprehenderit
+            dolorem consectetur. Id, corporis!
+          </p>
+          <ol>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+          </ol>
+          <ul>
+            <li class="title">list item</li>
+            <li>list item</li>
+            <li>list item</li>
+          </ul>
+        </article>
+      </section>
     </main>
     <footer>
-        copyright
+      copyright
     </footer>
-</body>
-
+  </body>
 </html>
