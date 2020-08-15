@@ -11,3 +11,11 @@ h1 {
 li {
     color: green;
 }
+
+nav li a {
+    color: grey;
+}
+
+.title {
+    text-decoration: underline;
+}
